@@ -70,7 +70,7 @@ while True:
     print("2. Lows")
     print("3. Exit")
 
-    choice = input("SPD: ").lower()
+    choice = input("PD: ").lower()
 
     if choice == "1" or choice == "highs":
         plot_highs()
